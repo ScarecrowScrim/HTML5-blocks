@@ -1,0 +1,144 @@
+@charset 'utf-8';
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+#page {
+	width: 80%;
+	min-width: 500px;
+	margin: auto;
+	color: #000;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header, 
+nav, 
+section,
+aside,
+footer {
+	border: 2px solid #8b8b8b;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+}
+
+header {
+	height: 52px;
+	margin: auto;
+	font-size: 21px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 0 0 10px 10px;
+	border-top: none;
+}
+
+header:hover {
+	background-color: #bfbebe;
+	color: #fff;
+}
+
+nav {
+	height: 34px;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+nav span {
+	text-align: center;
+	width: 20%;
+	line-height: 30px;
+	float: left;
+
+}
+
+nav span:last-child {
+	border-right: none;
+}
+
+nav span:hover {
+	background-color: #bfbebe;
+	color: #fff;
+}
+
+nav span:hover:first-child {
+	border-radius: 8px 0 0 8px ;
+}
+
+nav span:hover:last-child {
+	border-radius: 0 8px 8px 0 ;
+}
+
+section {
+	height: 413px;
+	margin: auto;
+	float: left;
+	width: 73%;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+section:hover {
+	background-color: #bfbebe;
+	color: #fff;
+}
+
+article {
+	color: #000;
+	background: #9b9b9b;
+	width: 90%;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 10px;
+	height: 104px;
+	line-height: 100px;
+	border: 2px solid #272727;
+}
+
+article:hover {
+	background-color: #767676;
+	color: #fff;
+}
+
+aside {
+	height: 413px;
+	margin: auto;
+	width: 25%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2%;
+}
+
+aside ul {
+	text-align: center;
+	line-height: 40px;
+}
+
+aside ul li:last-child {
+	border-bottom: none;
+}
+
+aside ul li:hover {
+	background-color: #bfbebe;
+	color: #fff;
+}
+
+aside ul li:hover:first-child {
+	border-radius: 8px 8px 0 0;
+}
+
+aside ul li:hover:last-child {
+	border-radius: 0 0 8px 8px;
+}
+
+footer {
+	clear: both;
+	height: 54px;
+	text-align: center;
+	line-height: 50px;
+}
+
+footer:hover {
+	background-color: #bfbebe;
+	color: #fff;
+}
